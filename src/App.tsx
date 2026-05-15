@@ -20,14 +20,14 @@ function App() {
             </div>
           </div>
 
-          <p className="text-primary tracking-[0.3em] uppercase text-sm mb-6">С 2024 года</p>
+          <p className="text-primary tracking-[0.3em] uppercase text-sm mb-6">Основана в 2010 году</p>
 
           <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-foreground mb-6 leading-tight">
-            <span className="text-gold-gradient">Золотой</span>Капитал
+            <span className="text-gold-gradient">Строй</span>Ремонт
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-12">
-            Эксклюзивный клуб для взыскательных инвесторов, открывающий доступ к уникальным возможностям в альтернативных активах.
+            Строительство, реставрация и ремонт объектов любой сложности. Жилые дома, фасады, кровля, парки и общественные пространства.
           </p>
 
           {/* Decorative bottom element */}
@@ -60,17 +60,17 @@ function App() {
 
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
-              <p className="text-primary tracking-[0.2em] uppercase text-sm mb-4">Наша философия</p>
+              <p className="text-primary tracking-[0.2em] uppercase text-sm mb-4">Наш подход</p>
               <h2 className="font-serif text-4xl md:text-5xl text-foreground mb-6 leading-tight text-balance">
-                Где видение встречает возможности
+                Качество, проверенное временем
               </h2>
             </div>
             <div className="space-y-6">
               <p className="text-muted-foreground leading-relaxed text-lg">
-                В мире обычных инвестиций мы ищем исключительное. ЗолотойКапитал объединяет избранный круг дальновидных инвесторов, которые понимают, что истинное богатство строится через доступ к возможностям, недоступным массовому рынку.
+                Мы работаем с собственниками частных домов, управляющими компаниями, ТСЖ и государственными структурами. Каждый объект — от загородного дома до городской аллеи — получает полный цикл работ: от проектирования до сдачи под ключ.
               </p>
               <p className="text-muted-foreground leading-relaxed text-lg">
-                От музейного изобразительного искусства до винтажных автомобилей высшего класса, от редких коллекционных предметов до новых альтернативных активов — мы отбираем, проверяем и представляем только исключительное.
+                Опыт в реализации государственных контрактов, прозрачная смета и строгое соблюдение сроков — основа нашей репутации. За 14 лет мы не сорвали ни одного дедлайна.
               </p>
             </div>
           </div>
@@ -81,40 +81,36 @@ function App() {
       <section className="py-24 px-6 bg-card/50">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <p className="text-primary tracking-[0.2em] uppercase text-sm mb-4">Наши направления</p>
-            <h2 className="font-serif text-4xl md:text-5xl text-foreground text-balance">Кураторское совершенство</h2>
+            <p className="text-primary tracking-[0.2em] uppercase text-sm mb-4">Наши услуги</p>
+            <h2 className="font-serif text-4xl md:text-5xl text-foreground text-balance">Полный спектр работ</h2>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             <ServiceCard
-              title="Изобразительное искусство"
-              description="Доступ к работам музейного качества от признанных мастеров и современных визионеров, отобранных экспертами мирового уровня."
+              title="Строительство и ремонт"
+              description="Возведение и капитальный ремонт жилых и коммерческих зданий. Работаем по договору с частными заказчиками, ТСЖ и управляющими компаниями."
               icon={
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-12 h-12">
-                  <rect x="3" y="3" width="18" height="18" rx="2" />
-                  <circle cx="8.5" cy="8.5" r="1.5" />
-                  <path d="M21 15l-5-5L5 21" />
+                  <path d="M3 21h18M3 10l9-7 9 7M9 21V14h6v7" />
                 </svg>
               }
             />
             <ServiceCard
-              title="Редкие коллекции"
-              description="От винтажных часов до исторических реликвий — каждый предмет с подтвержденной подлинностью и провенансом высочайшего стандарта."
+              title="Фасады и кровля"
+              description="Реставрация и утепление фасадов, ремонт и замена кровельных покрытий. Любые материалы — от металлочерепицы до мягкой кровли."
               icon={
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-12 h-12">
-                  <circle cx="12" cy="12" r="9" />
-                  <path d="M12 6v6l4 2" />
+                  <path d="M3 12L12 4l9 8M5 10v9a1 1 0 001 1h4v-5h4v5h4a1 1 0 001-1v-9" />
                 </svg>
               }
             />
             <ServiceCard
-              title="Классические автомобили"
-              description="Исключительные автомобили исторической значимости, каждый из которых представляет вершину автомобильного искусства и инженерии."
+              title="Парки и общественные места"
+              description="Благоустройство аллей, улиц, парков и дворовых территорий. Опыт работы по государственным контрактам и в рамках программ городского развития."
               icon={
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-12 h-12">
-                  <path d="M5 17h14M6 9l2-4h8l2 4M4 14h16v3H4z" />
-                  <circle cx="7" cy="17" r="2" />
-                  <circle cx="17" cy="17" r="2" />
+                  <path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z" />
+                  <circle cx="12" cy="9" r="2.5" />
                 </svg>
               }
             />
@@ -135,10 +131,10 @@ function App() {
 
             <blockquote className="relative z-10">
               <p className="font-serif text-2xl md:text-3xl text-foreground leading-relaxed italic mb-8">
-                Членство в ЗолотойКапитал изменило мой подход к альтернативным инвестициям. Качество возможностей и уровень сервиса просто несравнимы.
+                СтройРемонт выполнил реставрацию фасада нашего дома точно в срок и в рамках сметы. Качество работ — отличное, команда профессиональная. Будем сотрудничать дальше.
               </p>
               <footer className="text-muted-foreground">
-                <span className="text-primary">—</span> Уважаемый член клуба,{" "}
+                <span className="text-primary">—</span> Председатель ТСЖ «Центральный»,{" "}
                 <span className="text-primary">Москва</span>
               </footer>
             </blockquote>
@@ -155,10 +151,10 @@ function App() {
         <div className="max-w-3xl mx-auto relative z-10">
           <div className="text-center mb-12">
             <ArtDecoDivider variant="chevron" />
-            <p className="text-primary tracking-[0.2em] uppercase text-sm mb-4">Начните свой путь</p>
-            <h2 className="font-serif text-4xl md:text-5xl text-foreground mb-6 text-balance">Запросить приглашение</h2>
+            <p className="text-primary tracking-[0.2em] uppercase text-sm mb-4">Оставьте заявку</p>
+            <h2 className="font-serif text-4xl md:text-5xl text-foreground mb-6 text-balance">Рассчитаем стоимость</h2>
             <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-              Членство предоставляется только по приглашению. Оставьте заявку, и наш представитель свяжется с вами для обсуждения возможного сотрудничества.
+              Оставьте контакты — наш специалист свяжется с вами, уточнит детали и подготовит предварительную смету бесплатно.
             </p>
           </div>
 
@@ -180,19 +176,28 @@ function App() {
           <div className="flex flex-col items-center gap-6">
             <div className="flex items-center gap-4">
               <div className="w-12 h-px bg-primary" />
-              <span className="font-serif text-xl text-foreground">ЗолотойКапитал</span>
+              <span className="font-serif text-xl text-foreground">СтройРемонт</span>
               <div className="w-12 h-px bg-primary" />
             </div>
 
-            <p className="text-muted-foreground text-sm text-center">
-              &copy; {new Date().getFullYear()} ЗолотойКапитал. Все права защищены. Членство только по приглашению.
-            </p>
+            <nav className="flex flex-wrap justify-center gap-8">
+              <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm tracking-wider uppercase">
+                Услуги
+              </a>
+              <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm tracking-wider uppercase">
+                О компании
+              </a>
+              <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm tracking-wider uppercase">
+                Портфолио
+              </a>
+              <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm tracking-wider uppercase">
+                Контакты
+              </a>
+            </nav>
 
-            <div className="flex items-center gap-1">
-              {Array.from({ length: 5 }).map((_, i) => (
-                <div key={i} className="w-1 h-1 bg-primary" style={{ opacity: 1 - i * 0.15 }} />
-              ))}
-            </div>
+            <p className="text-muted-foreground text-sm text-center">
+              © 2024 СтройРемонт. Строительство, реставрация и благоустройство.
+            </p>
           </div>
         </div>
       </footer>
